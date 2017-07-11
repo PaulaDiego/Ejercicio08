@@ -11,7 +11,7 @@ namespace Ejercicio08Test
         public void TestHacerPlato()
         {
             Alimento Alimento1 = new Alimento();
-            Turbomix sut = new Turbomix();
+            Turbomix sut = new Turbomix(new CocinaService(),new BasculaService());
             sut.HacerPlato(Alimento1,Alimento1);
         }
 
