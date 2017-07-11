@@ -10,8 +10,7 @@ namespace Ejercicio08Test
         [TestMethod]
         public void TestMethod1()
         {
-            IAlimento Alimento1 = new IAlimento();
-            Plato Plato1 = new Plato(Alimento1,Alimento2);
+
         }
     }
 }
