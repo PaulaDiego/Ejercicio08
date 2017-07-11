@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Ejercicio08;
 
-namespace UnitTestProject1
+namespace Ejercicio08Test
 {
     [TestClass]
     public class TurbomixTest
