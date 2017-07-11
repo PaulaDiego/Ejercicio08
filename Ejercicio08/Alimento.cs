@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ejercicio08
 {
-    public class Class1
+    public class Alimento : IAlimento
     {
+        public int Peso { get; set; }
     }
 }
