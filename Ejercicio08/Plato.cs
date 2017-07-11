@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio08
 {
-    public class Plato : IPlato
+    public class Plato 
     {
         public Alimento Alimento1 { get; set; }
         public Alimento Alimento2 { get; set; }

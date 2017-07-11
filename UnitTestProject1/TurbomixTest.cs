@@ -8,21 +8,13 @@ namespace Ejercicio08Test
     public class TurbomixTest
     {
         [TestMethod]
-        public void TestPesar()
+        public void TestHacerPlato()
         {
             Alimento Alimento1 = new Alimento();
             Turbomix sut = new Turbomix();
-            sut.Pesar(Alimento1);
+            sut.HacerPlato(Alimento1,Alimento1);
         }
 
-        [TestMethod]
-        public void TestCalentar()
-        {
-            Alimento Alimento1 = new Alimento();
-            Alimento Alimento2 = new Alimento();
-
-            Turbomix sut = new Turbomix();
-            sut.Calentar(Alimento1,Alimento2);
-        }
+       
     }
 }
